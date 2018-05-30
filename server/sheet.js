@@ -13,7 +13,7 @@ let oauth2Client;
 const users = {
     'veganov': {
         name: 'veganov',
-        spreadsheetId: '1_dMcoa-DVtQDX4OJnCq2874EXGV_x5_nzZdyD3XTMFE',
+        spreadsheetId: '1WaEhstvY_h_2P-DYO2JIqeji2DXDL6UcF0tSOClyYDQ',
         orderListRange: "Orders!A1",
         orderFieldsSequenceSheetId: 'Orders',
         goodsSheetId: 'Goods',
@@ -21,7 +21,7 @@ const users = {
     },
     'drzhbe': {
         name: 'drzhbe',
-        spreadsheetId: '1kfKINyTGzsuycjz9O-uxXWwNf_e_DcuFTRwWWHjtxGE',
+        spreadsheetId: '1WaEhstvY_h_2P-DYO2JIqeji2DXDL6UcF0tSOClyYDQ',
         orderListRange: 'Orders!A1',
         orderFieldsSequenceSheetId: 'Orders',
         goodsSheetId: 'Goods',
