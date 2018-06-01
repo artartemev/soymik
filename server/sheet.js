@@ -11,24 +11,16 @@ const TOKEN_PATH = TOKEN_DIR + 'sheets.googleapis.com-nodejs-quickstart.json';
 let oauth2Client;
 
 const users = {
-    'veganov': {
-        name: 'veganov',
+    'soymik': {
+        name: 'soymik',
         spreadsheetId: '1_dMcoa-DVtQDX4OJnCq2874EXGV_x5_nzZdyD3XTMFE',
         orderListRange: "Orders!A1",
         orderFieldsSequenceSheetId: 'Orders',
         goodsSheetId: 'Goods',
         subscribersSheedId: 'Subscribers'
-    },
-    'drzhbe': {
-        name: 'drzhbe',
-        spreadsheetId: '1kfKINyTGzsuycjz9O-uxXWwNf_e_DcuFTRwWWHjtxGE',
-        orderListRange: 'Orders!A1',
-        orderFieldsSequenceSheetId: 'Orders',
-        goodsSheetId: 'Goods',
-        subscribersSheedId: 'Subscribers'
     }
 }
-const user = users.veganov;
+const user = users.soymik;
 
 /**
  * @param {function} options.handleAuthBadToken
